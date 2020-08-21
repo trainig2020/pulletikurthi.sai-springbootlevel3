@@ -1,0 +1,13 @@
+my:
+  greeting: hello satya sai
+  list:
+      values: One,Two,Three
+db:
+   connection: "{connectionString:'https://localhost:8080',userName:'foo',password:'foo'}"
+   host: 127.0.0.1
+   port: 1200
+management.endpoints.web.exposure.include:  "*"
+spring:
+  profiles:
+    active:
+    - test

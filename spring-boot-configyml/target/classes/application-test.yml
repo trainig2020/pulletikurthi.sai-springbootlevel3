@@ -1,0 +1,9 @@
+my:
+  greeting: hello satya sai
+  list:
+      values: One,Two,Three
+db:
+   connection: "test String"
+   host: 127.0.0.2
+   port: 2200
+management.endpoints.web.exposure.include:  "*"
